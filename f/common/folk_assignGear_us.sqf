@@ -85,7 +85,7 @@ _MTRmount = "Tripod_Bag";																													// Mortar Assistant Gunner
 
 _RAA = "Stinger"; _RAAmag = "Stinger";																										// Rifleman AA (anti-air)
 
-_SNrifle = "M24"; _SNriflemag = "5Rnd_762x51_M24";																					// Sniper
+_SNrifle = "ACE_M110"; _SNriflemag = "ACE_20Rnd_762x51_S_M110";																					// Sniper
 
 _claymore = "ACE_CLAYMORE_M"; _satchel = "pipebomb";																										// Engineer
 
