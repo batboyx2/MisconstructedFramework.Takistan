@@ -54,12 +54,12 @@ _glrifle = "ACE_M16A4_GL_UP"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rn
 _glsmokewhite = "1Rnd_Smoke_M203"; _glsmokegreen = "1Rnd_SmokeGreen_M203"; _glsmokered = "1Rnd_SmokeRed_M203";    							// Smoke for FTLs, Squad Leaders, etc 
 _glflarewhite = "FlareWhite_M203"; _glflarered = "FlareRed_M203"; _glflareyellow = "FlareYellow_M203"; _glflaregreen = "FlareGreen_M203";	// Flares for FTLs, Squad Leaders, etc
 
-_pistol = "Colt1911"; _pistolmag = "7Rnd_45ACP_1911 ";																								// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
+_pistol = "M9"; _pistolmag = "15Rnd_9x19_M9";																								// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
 
 _grenade = "HandGrenade_West"; _smokegrenade = "SmokeShell";_smokegrenadegreen = "SmokeShellGreen";																				// Grenades
 
-_bagmedium = "ACE_Backpack_US";		// 																							// Backpack for assistant gunners (AAR, AMMG, AMAT, AHAT), so that they don't have to drop ammo themselves
-_baglarge =  "ACE_Backpack_US"; 		// 
+_bagmedium = "ACE_Rucksack_MOLLE_ACU";		// 																							// Backpack for assistant gunners (AAR, AMMG, AMAT, AHAT), so that they don't have to drop ammo themselves
+_baglarge =  "ACE_Rucksack_MOLLE_ACU"; 		// 
 
 
 // ====================================================================================

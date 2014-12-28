@@ -46,15 +46,15 @@
 
 _rifle = "ACE_M16A4_Iron"; _riflemag = "30Rnd_556x45_Stanag";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
 
-_carbine = "ACE_M4A1_F"; _carbinemag = "30Rnd_556x45_Stanag"; 																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
+_carbine = "M4A1"; _carbinemag = "30Rnd_556x45_Stanag"; 																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
 _smg = "ACE_MP5A4"; _smgmag = "30Rnd_9x19_MP5";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
 
-_glrifle = "ACE_M16A4_GL_UP"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rnd_HE_M203";														// Rifle with GL and HE grenades (CO, DC, FTLs)
+_glrifle = "M16A4_GL"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rnd_HE_M203";														// Rifle with GL and HE grenades (CO, DC, FTLs)
 _glsmokewhite = "1Rnd_Smoke_M203"; _glsmokegreen = "1Rnd_SmokeGreen_M203"; _glsmokered = "1Rnd_SmokeRed_M203";    							// Smoke for FTLs, Squad Leaders, etc 
 _glflarewhite = "FlareWhite_M203"; _glflarered = "FlareRed_M203"; _glflareyellow = "FlareYellow_M203"; _glflaregreen = "FlareGreen_M203";	// Flares for FTLs, Squad Leaders, etc
 
-_pistol = "Colt1911"; _pistolmag = "7Rnd_45ACP_1911 ";																								// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
+_pistol = "M9"; _pistolmag = "15Rnd_9x19_M9";																								// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
 
 _grenade = "HandGrenade_West"; _smokegrenade = "SmokeShell";_smokegrenadegreen = "SmokeShellGreen";																				// Grenades
 
@@ -85,7 +85,7 @@ _MTRmount = "Tripod_Bag";																													// Mortar Assistant Gunner
 
 _RAA = "Stinger"; _RAAmag = "Stinger";																										// Rifleman AA (anti-air)
 
-_SNrifle = "M40A3"; _SNriflemag = "ACE_5Rnd_762x51_T_M24";																					// Sniper
+_SNrifle = "M40A3"; _SNriflemag = "5Rnd_762x51_M24";																					// Sniper
 
 _claymore = "ACE_CLAYMORE_M"; _satchel = "pipebomb";																										// Engineer
 
