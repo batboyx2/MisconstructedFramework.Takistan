@@ -8972,10 +8972,10 @@ class Mission
 				class Item0
 				{
 					position[]={786.50055,466.9032,946.05402};
-					azimut=0.89087355;
+					azimut=0.89087403;
 					id=567;
 					side="EAST";
-					vehicle="RU_Commander";
+					vehicle="RU_Soldier_Officer";
 					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
@@ -9009,10 +9009,10 @@ class Mission
 				class Item0
 				{
 					position[]={786.93219,471.5072,931.19043};
-					azimut=0.89087355;
+					azimut=0.89087403;
 					id=569;
 					side="EAST";
-					vehicle="RU_Commander";
+					vehicle="RU_Soldier_Officer";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";

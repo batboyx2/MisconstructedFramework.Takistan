@@ -44,48 +44,48 @@
 
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
-_rifle = "ACE_M16A4_Iron"; _riflemag = "30Rnd_556x45_Stanag";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
+_rifle = "ACE_AK103"; _riflemag = "30Rnd_762x39_AK47";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
 
-_carbine = "ACE_M4A1_F"; _carbinemag = "30Rnd_556x45_Stanag"; 																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
+_carbine = "ACE_AK74M"; _carbinemag = "30Rnd_545x39_AK"; 																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
-_smg = "ACE_MP5A4"; _smgmag = "30Rnd_9x19_MP5";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
+_smg = "bizon"; _smgmag = "64Rnd_9x19_Bizon";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
 
-_glrifle = "ACE_M16A4_GL_UP"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rnd_HE_M203";														// Rifle with GL and HE grenades (CO, DC, FTLs)
-_glsmokewhite = "1Rnd_Smoke_M203"; _glsmokegreen = "1Rnd_SmokeGreen_M203"; _glsmokered = "1Rnd_SmokeRed_M203";    							// Smoke for FTLs, Squad Leaders, etc 
-_glflarewhite = "FlareWhite_M203"; _glflarered = "FlareRed_M203"; _glflareyellow = "FlareYellow_M203"; _glflaregreen = "FlareGreen_M203";	// Flares for FTLs, Squad Leaders, etc
+_glrifle = "ACE_AK103_GL"; _glriflemag = "ACE_30Rnd_762x39_AP_AK47"; _glmag = "1Rnd_HE_GP25";														// Rifle with GL and HE grenades (CO, DC, FTLs)
+_glsmokewhite = "1Rnd_SMOKE_GP25"; _glsmokegreen = "1Rnd_SmokeGreen_GP25"; _glsmokered = "1Rnd_SmokeRed_GP25";    							// Smoke for FTLs, Squad Leaders, etc 
+_glflarewhite = "FlareWhite_GP25"; _glflarered = "FlareRed_GP25"; _glflareyellow = "FlareYellow_GP25"; _glflaregreen = "FlareGreen_GP25";	// Flares for FTLs, Squad Leaders, etc
 
-_pistol = "Colt1911"; _pistolmag = "7Rnd_45ACP_1911 ";																								// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
+_pistol = "ACE_APS"; _pistolmag = "ACE_20Rnd_9x18_APS";																								// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
 
-_grenade = "HandGrenade_West"; _smokegrenade = "SmokeShell";_smokegrenadegreen = "SmokeShellGreen";																				// Grenades
+_grenade = "HandGrenade_East"; _smokegrenade = "SmokeShell";_smokegrenadegreen = "SmokeShellGreen";																				// Grenades
 
-_bagmedium = "ACE_Backpack_US";		// 																							// Backpack for assistant gunners (AAR, AMMG, AMAT, AHAT), so that they don't have to drop ammo themselves
-_baglarge =  "ACE_Backpack_US"; 		// 
+_bagmedium = "ACE_ALICE_Backpack";		// 																							// Backpack for assistant gunners (AAR, AMMG, AMAT, AHAT), so that they don't have to drop ammo themselves
+_baglarge =  "ACE_Rucksack_RD90"; 		// 
 
 
 // ====================================================================================
 
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
-_AR = "M249_EP1"; _ARmag = "200Rnd_556x45_M249";																							// Automatic Rifleman
+_AR = "ACE_RPK"; _ARmag = "ACE_75Rnd_762x39_B_AK47";																							// Automatic Rifleman
 
-_MMG = "ACE_M240B"; _MMGmag = "100Rnd_762x51_M240";																								// Medium MG
+_MMG = "ACE_RPK74M"; _MMGmag = "ACE_75Rnd_545x39_T_RPK";																								// Medium MG
 
-_HMG = "ACE_M2HBProxy";																										// Heavy MG (note: HMG is an assembled weapon, gunner carries weapon)
-_HMGmount = "ACE_M3TripodProxy";																													// Assistant Heavy MG (note: HMG is an assembled weapon, assistant carries bipod/tripd)
+_HMG = "ACE_DSHKMProxy";																										// Heavy MG (note: HMG is an assembled weapon, gunner carries weapon)
+_HMGmount = "ACE_DSHKMTripodProxy";																													// Assistant Heavy MG (note: HMG is an assembled weapon, assistant carries bipod/tripd)
 
-_RAT = "ACE_M136_CSRS"; _RATmag = "ACE_M136_CSRS";																											// Rifleman AT
+_RAT = "ACE_RPG22"; _RATmag = "ACE_RPG22";																											// Rifleman AT
 
-_MAT = "MAAWS"; _MATmag1 = "MAAWS_HEAT"; _MATmag2 = "ACE_MAAWS_HE";																			// Medium AT
+_MAT = "RPG7V"; _MATmag1 = "ACE_PG7VL_PGO7"; _MATmag2 = "ACE_TBG7V";																			// Medium AT
 
-_HAT = "ACE_Javelin_Direct"; _HATmag1 = "Javelin"; _HATmag2 = "Javelin";																				// Heavy AT Gunner
-_HATscope = "ACE_Javelin_CLU";
+_HAT = "MetisLauncher"; _HATmag1 = "ACE_AT13TB"; _HATmag2 = "ACE_AT13TB";																				// Heavy AT Gunner
+//_HATscope = "ACE_Javelin_CLU";
 
 _MTR = "M252_US_Bag_EP1";																													// Mortar Gunner (note: Mortar is an assembled weapon, gunner carries weapon)
 _MTRmount = "Tripod_Bag";																													// Mortar Assistant Gunner (note: Mortar is an assembled weapon, assistant carries bipod/tripd)
 
-_RAA = "Stinger"; _RAAmag = "Stinger";																										// Rifleman AA (anti-air)
+_RAA = "Igla"; _RAAmag = "Iglac";																										// Rifleman AA (anti-air)
 
-_SNrifle = "M40A3"; _SNriflemag = "ACE_5Rnd_762x51_T_M24";																					// Sniper
+_SNrifle = "ksvk"; _SNriflemag = "5Rnd_127x108_KSVK";																					// Sniper
 
 _claymore = "ACE_CLAYMORE_M"; _satchel = "pipebomb";																										// Engineer
 
