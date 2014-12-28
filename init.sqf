@@ -1,7 +1,13 @@
 // ====================================================================================
-//Attempt to connect ACRE
-["162.248.88.211", "9987", "", "ACRE_CHANNEL", "123"] call acre_api_fnc_joinServer;
+//Attempt to connect ACRE (testing porpoises)
+//["162.248.88.211", "9987", "", "ACRE_CHANNEL", "123"] call acre_api_fnc_joinServer;
 
+// ====================================================================================
+// Run the custom ACE Configurator
+
+if !(isDedicated) then {
+	execVM "tmh\ace_configurator.sqf";
+};
 
 // ====================================================================================
 

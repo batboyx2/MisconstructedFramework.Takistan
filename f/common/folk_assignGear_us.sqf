@@ -139,9 +139,6 @@ switch (_typeofUnit) do
 		_unit addweapon "ItemGPS";
 		
 		_unit addWeapon _bagmedium;
-		sleep 2;
-		_handle = [_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
-		waitUntil {_handle};
 		_bool = [_unit, _glmag, 10] call ACE_fnc_PackMagazine;
 		_bool = [_unit, _glriflemag, 5] call ACE_fnc_PackMagazine;
 		_bool = [_unit, _glsmokewhite, 5] call ACE_fnc_PackMagazine;
@@ -172,8 +169,6 @@ switch (_typeofUnit) do
 		
 		_unit addWeapon "ACRE_PRC119";
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};  
 
 // LOADOUT: MEDIC
@@ -189,9 +184,6 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenadegreen} foreach [1,2];
 		
 		_unit addWeapon _bagmedium;
-		sleep 2;
-		_handle = [_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
-		waitUntil {_handle};
 		_bool = [_unit, _carbinemag, 2] call ACE_fnc_PackMagazine;
 		_bool = [_unit, "ACE_LargeBandage", 10] call ACE_fnc_PackMagazine;
 		_bool = [_unit, "ACE_Morphine", 10] call ACE_fnc_PackMagazine;
@@ -224,8 +216,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};		
 
 
@@ -242,8 +232,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};	
 	
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
@@ -263,8 +251,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};				
 	
 // LOADOUT: RIFLEMAN (AT)	
@@ -280,8 +266,6 @@ switch (_typeofUnit) do
 		_unit addweapon _RAT;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};		
 	
 // LOADOUT: SURFACE TO AIR MISSILE GUNNER 
@@ -296,8 +280,6 @@ switch (_typeofUnit) do
 		_unit addweapon _RAA;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};			
 	
 // LOADOUT: ASSISTANT SURFACE TO AIR MISSILE GUNNER
@@ -316,8 +298,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};			
 	
 // LOADOUT: MEDIUM MG GUNNER	
@@ -332,8 +312,6 @@ switch (_typeofUnit) do
 		_unit addweapon _pistol;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};			
 
 // LOADOUT: MEDIUM MG ASSISTANT GUNNER	
@@ -352,8 +330,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 	
 // LOADOUT: HEAVY MG GUNNER
@@ -369,8 +345,6 @@ switch (_typeofUnit) do
 		[_unit, _HMG] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};	
 	
 // LOADOUT: HEAVY MG ASSISTANT GUNNER
@@ -387,8 +361,6 @@ switch (_typeofUnit) do
 		[_unit, _HMGmount] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};		
 
 // LOADOUT: MEDIUM AT GUNNER
@@ -404,8 +376,6 @@ switch (_typeofUnit) do
 		_unit addweapon _MAT;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};	
 	
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER	
@@ -424,8 +394,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};	
 	
 // LOADOUT: HEAVY AT GUNNER
@@ -442,8 +410,6 @@ switch (_typeofUnit) do
 		_unit addmagazine _HATscope;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};	
 	
 // LOADOUT: HEAVY AT ASSISTANT GUNNER	
@@ -462,8 +428,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};		
 	
 // LOADOUT: MORTAR GUNNER
@@ -479,8 +443,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 	
 // LOADOUT: MORTAR ASSISTANT GUNNER
@@ -497,8 +459,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 	
 // LOADOUT: SNIPER
@@ -513,8 +473,6 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenade;} foreach [1];
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};		
 	
 // LOADOUT: SPOTTER
@@ -530,8 +488,6 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenade;} foreach [1];
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};			
 	
 // LOADOUT: GROUND VEHICLE CREW
@@ -545,8 +501,6 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenade;} foreach [1];
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};			
 	
 // LOADOUT: AIR VEHICLE PILOTS
@@ -560,8 +514,6 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenade} foreach [1,2];
 
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};		
 	
 // LOADOUT: ENGINEER
@@ -579,8 +531,6 @@ switch (_typeofUnit) do
 		
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};	
 		
 // LOADOUT: RIFLEMAN
@@ -598,8 +548,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 
 // LOADOUT: CARABINEER
@@ -617,8 +565,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 
 // LOADOUT: SUBMACHINEGUNNER
@@ -636,8 +582,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 
 // LOADOUT: GRENADIER
@@ -662,8 +606,6 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC148_UHF";
-		
-		[_unit] execVM "f\common\tmh_assignGear_removeExcessACE.sqf";
 	};
 
 // CARGO: CAR - room for 10 weapons and 50 cargo items
@@ -737,7 +679,15 @@ switch (_typeofUnit) do
 // END SWITCH FOR DEFINE UNIT TYPE LOADOUTS
 };
 
+_unit setVariable ["ace_sys_wounds_no_medical_gear", true];
+
 // ====================================================================================
 
-// ENSURE UNIT HAS CORRECT WEAPON SELECTED ON SPAWNING
-_unit selectweapon primaryweapon _unit;
+// ENSURE UNIT HAS WEAPON SAFETIED AND LOWERED ON SPAWN
+_unit addWeapon "ACE_Safe";
+_unit selectWeapon "ACE_Safe";
+_unit action ["WEAPONONBACK",_unit];
+
+//DISENGAGES THE SYSTEM WHICH KEEPS TEN OF EACH MED FROM BEING ADDED
+
+[_unit]execVM "tmh\reinstatePacking.sqf";

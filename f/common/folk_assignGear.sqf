@@ -65,8 +65,7 @@ case "civ_ru":{_faction="bis_tk_civ";_useBackpacks=0;};		// CIV_RU as TK_CIV (no
 // automatically includes a file which contains the appropriate equipment data.
 
 if (_faction == "bis_us") then {
-//#include "folk_assignGear_us.sqf"
-[_typeofUnit, _unit] execVM "f\common\folk_assignGear_us.sqf";
+#include "folk_assignGear_us.sqf"
 };
 
 // ====================================================================================

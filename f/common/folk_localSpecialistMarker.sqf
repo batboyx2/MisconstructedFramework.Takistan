@@ -37,7 +37,7 @@ _mkrName = format ["mkr_%1",_unt];
 if (isNil "_unt") then 
 {
 	call compile format ["
-		waitUntil {sleep 3; count units %1 > 0}; 
+		waitUntil {sleep 10; count units %1 > 0}; 
 		_unt = %1;
 		
 	",_untName,_unt];
