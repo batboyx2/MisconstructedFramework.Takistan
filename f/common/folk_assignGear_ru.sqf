@@ -44,13 +44,13 @@
 
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
-_rifle = "ACE_AK103"; _riflemag = "30Rnd_762x39_AK47";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
+_rifle = "ACE_AK74M_FL"; _riflemag = "30Rnd_545x39_AK";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
 
 _carbine = "ACE_AK74M"; _carbinemag = "30Rnd_545x39_AK"; 																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
-_smg = "bizon"; _smgmag = "64Rnd_9x19_Bizon";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
+_smg = "AKS_74_U"; _smgmag = "30Rnd_545x39_AK";																									// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
 
-_glrifle = "ACE_AK103_GL"; _glriflemag = "ACE_30Rnd_762x39_AP_AK47"; _glmag = "1Rnd_HE_GP25";														// Rifle with GL and HE grenades (CO, DC, FTLs)
+_glrifle = "ACE_AK74M_GL"; _glriflemag = "30Rnd_545x39_AK"; _glmag = "1Rnd_HE_GP25";														// Rifle with GL and HE grenades (CO, DC, FTLs)
 _glsmokewhite = "1Rnd_SMOKE_GP25"; _glsmokegreen = "1Rnd_SmokeGreen_GP25"; _glsmokered = "1Rnd_SmokeRed_GP25";    							// Smoke for FTLs, Squad Leaders, etc 
 _glflarewhite = "FlareWhite_GP25"; _glflarered = "FlareRed_GP25"; _glflareyellow = "FlareYellow_GP25"; _glflaregreen = "FlareGreen_GP25";	// Flares for FTLs, Squad Leaders, etc
 
@@ -66,9 +66,9 @@ _baglarge =  "ACE_Rucksack_RD90"; 		//
 
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
-_AR = "ACE_RPK"; _ARmag = "ACE_75Rnd_762x39_B_AK47";																							// Automatic Rifleman
+_AR = "ACE_RPK74M"; _ARmag = "75Rnd_545x39_RPK";																							// Automatic Rifleman
 
-_MMG = "ACE_RPK74M"; _MMGmag = "ACE_75Rnd_545x39_T_RPK";																								// Medium MG
+_MMG = "PK"; _MMGmag = "100Rnd_762x54_PK";																								// Medium MG
 
 _HMG = "ACE_DSHKMProxy";																										// Heavy MG (note: HMG is an assembled weapon, gunner carries weapon)
 _HMGmount = "ACE_DSHKMTripodProxy";																													// Assistant Heavy MG (note: HMG is an assembled weapon, assistant carries bipod/tripd)
@@ -168,7 +168,7 @@ switch (_typeofUnit) do
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
 		_unit addWeapon "ACRE_PRC117";
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};  
 
 // LOADOUT: MEDIC
@@ -192,7 +192,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _smokegrenade, 6] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 
 // LOADOUT: FIRE TEAM LEADER
@@ -215,7 +215,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _glsmokewhite, 5] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};		
 
 
@@ -231,7 +231,7 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenade} foreach [1,2,3];
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};	
 	
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
@@ -250,7 +250,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _riflemag, 4] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};				
 	
 // LOADOUT: RIFLEMAN (AT)	
@@ -265,7 +265,7 @@ switch (_typeofUnit) do
 		{_unit addmagazine _smokegrenade} foreach [1];		
 		_unit addweapon _RAT;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};		
 	
 // LOADOUT: SURFACE TO AIR MISSILE GUNNER 
@@ -279,7 +279,7 @@ switch (_typeofUnit) do
 		{_unit addmagazine _RAAmag} foreach [1];				
 		_unit addweapon _RAA;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};			
 	
 // LOADOUT: ASSISTANT SURFACE TO AIR MISSILE GUNNER
@@ -297,7 +297,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _RAAmag, 2] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};			
 	
 // LOADOUT: MEDIUM MG GUNNER	
@@ -311,7 +311,7 @@ switch (_typeofUnit) do
 		{_unit addmagazine _pistolmag} foreach [1,2,3,4,5];
 		_unit addweapon _pistol;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};			
 
 // LOADOUT: MEDIUM MG ASSISTANT GUNNER	
@@ -329,7 +329,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _riflemag, 4] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 	
 // LOADOUT: HEAVY MG GUNNER
@@ -344,7 +344,7 @@ switch (_typeofUnit) do
 		_unit addBackpack _HMG;
 		[_unit, _HMG] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};	
 	
 // LOADOUT: HEAVY MG ASSISTANT GUNNER
@@ -360,7 +360,7 @@ switch (_typeofUnit) do
 		_unit addBackpack _HMGmount;
 		[_unit, _HMGmount] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};		
 
 // LOADOUT: MEDIUM AT GUNNER
@@ -375,7 +375,7 @@ switch (_typeofUnit) do
 		{_unit addmagazine _MATmag2} foreach [1];
 		_unit addweapon _MAT;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};	
 	
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER	
@@ -393,7 +393,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _MATmag2, 2] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};	
 	
 // LOADOUT: HEAVY AT GUNNER
@@ -409,7 +409,7 @@ switch (_typeofUnit) do
 		_unit addweapon _HAT;
 		_unit addmagazine _HATscope;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};	
 	
 // LOADOUT: HEAVY AT ASSISTANT GUNNER	
@@ -427,7 +427,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _riflemag, 3] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};		
 	
 // LOADOUT: MORTAR GUNNER
@@ -442,7 +442,7 @@ switch (_typeofUnit) do
 		_unit addBackpack _MTR;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 	
 // LOADOUT: MORTAR ASSISTANT GUNNER
@@ -458,7 +458,7 @@ switch (_typeofUnit) do
 		_unit addBackpack _MTRmount;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 	
 // LOADOUT: SNIPER
@@ -472,7 +472,7 @@ switch (_typeofUnit) do
 		_unit addweapon "Binocular";
 		{_unit addmagazine _smokegrenade;} foreach [1];
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};		
 	
 // LOADOUT: SPOTTER
@@ -487,7 +487,7 @@ switch (_typeofUnit) do
 		_unit addWeapon "Binocular_Vector";	
 		{_unit addmagazine _smokegrenade;} foreach [1];
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};			
 	
 // LOADOUT: GROUND VEHICLE CREW
@@ -500,7 +500,7 @@ switch (_typeofUnit) do
 		_unit addweapon _smg;
 		{_unit addmagazine _smokegrenade;} foreach [1];
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};			
 	
 // LOADOUT: AIR VEHICLE PILOTS
@@ -513,7 +513,7 @@ switch (_typeofUnit) do
 		_unit addweapon _smg;
 		{_unit addmagazine _smokegrenade} foreach [1,2];
 
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};		
 	
 // LOADOUT: ENGINEER
@@ -530,7 +530,7 @@ switch (_typeofUnit) do
 		{_unit addmagazine _claymore} foreach [1,2,3];
 		
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};	
 		
 // LOADOUT: RIFLEMAN
@@ -547,7 +547,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _riflemag, 12] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 
 // LOADOUT: CARABINEER
@@ -564,7 +564,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _carbinemag, 12] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 
 // LOADOUT: SUBMACHINEGUNNER
@@ -581,7 +581,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _smgmag, 12] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 
 // LOADOUT: GRENADIER
@@ -605,7 +605,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _glriflemag, 2] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC148_UHF";
+		_unit addWeapon "ACRE_PRC148";
 	};
 
 // CARGO: CAR - room for 10 weapons and 50 cargo items
