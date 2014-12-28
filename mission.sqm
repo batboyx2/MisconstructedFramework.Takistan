@@ -4972,7 +4972,7 @@ class Mission
 					special="NONE";
 					id=1131;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_SR";
@@ -4986,7 +4986,7 @@ class Mission
 					special="NONE";
 					id=1132;
 					side="WEST";
-					vehicle="US_Soldier_LAT_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_AT";
@@ -5000,7 +5000,7 @@ class Mission
 					special="NONE";
 					id=1133;
 					side="WEST";
-					vehicle="US_Soldier_GL_EP1";
+					vehicle="BAF_Soldier_GL_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_GR";
@@ -5064,7 +5064,7 @@ class Mission
 					special="NONE";
 					id=1134;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A2_SR";
@@ -5078,7 +5078,7 @@ class Mission
 					special="NONE";
 					id=1135;
 					side="WEST";
-					vehicle="US_Soldier_LAT_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A2_AT";
@@ -5092,7 +5092,7 @@ class Mission
 					special="NONE";
 					id=1136;
 					side="WEST";
-					vehicle="US_Soldier_GL_EP1";
+					vehicle="BAF_Soldier_GL_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A2_GR";
@@ -5195,7 +5195,7 @@ class Mission
 					special="NONE";
 					id=1137;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B1_SR";
@@ -5209,7 +5209,7 @@ class Mission
 					special="NONE";
 					id=1138;
 					side="WEST";
-					vehicle="US_Soldier_LAT_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B1_AT";
@@ -5223,7 +5223,7 @@ class Mission
 					special="NONE";
 					id=1139;
 					side="WEST";
-					vehicle="US_Soldier_GL_EP1";
+					vehicle="BAF_Soldier_GL_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B1_GR";
@@ -5287,7 +5287,7 @@ class Mission
 					special="NONE";
 					id=1140;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B2_SR";
@@ -5301,7 +5301,7 @@ class Mission
 					special="NONE";
 					id=1141;
 					side="WEST";
-					vehicle="US_Soldier_LAT_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B2_AT";
@@ -5315,7 +5315,7 @@ class Mission
 					special="NONE";
 					id=1142;
 					side="WEST";
-					vehicle="US_Soldier_GL_EP1";
+					vehicle="BAF_Soldier_GL_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B2_GR";
@@ -5418,7 +5418,7 @@ class Mission
 					special="NONE";
 					id=1143;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C1_SR";
@@ -5432,7 +5432,7 @@ class Mission
 					special="NONE";
 					id=1144;
 					side="WEST";
-					vehicle="US_Soldier_LAT_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C1_AT";
@@ -5446,7 +5446,7 @@ class Mission
 					special="NONE";
 					id=1145;
 					side="WEST";
-					vehicle="US_Soldier_GL_EP1";
+					vehicle="BAF_Soldier_GL_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C1_GR";
@@ -5510,7 +5510,7 @@ class Mission
 					special="NONE";
 					id=1146;
 					side="WEST";
-					vehicle="US_Soldier_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C2_SR";
@@ -5524,7 +5524,7 @@ class Mission
 					special="NONE";
 					id=1147;
 					side="WEST";
-					vehicle="US_Soldier_LAT_EP1";
+					vehicle="BAF_Soldier_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C2_AT";
@@ -5538,7 +5538,7 @@ class Mission
 					special="NONE";
 					id=1148;
 					side="WEST";
-					vehicle="US_Soldier_GL_EP1";
+					vehicle="BAF_Soldier_GL_MTP";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C2_GR";
