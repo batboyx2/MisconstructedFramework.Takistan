@@ -77,13 +77,13 @@ _RAT = "ACE_RPG22"; _RATmag = "ACE_RPG22";																											// Rifleman
 
 _MAT = "RPG7V"; _MATmag1 = "ACE_PG7VL_PGO7"; _MATmag2 = "ACE_TBG7V";																			// Medium AT
 
-_HAT = "MetisLauncher"; _HATmag1 = "ACE_AT13TB"; _HATmag2 = "ACE_AT13TB";																				// Heavy AT Gunner
+_HAT = "RPG7V"; _HATmag1 = "ACE_PG7VL_PGO7"; _HATmag2 = "ACE_TBG7V";																				// Heavy AT Gunner
 //_HATscope = "ACE_Javelin_CLU";
 
 _MTR = "M252_US_Bag_EP1";																													// Mortar Gunner (note: Mortar is an assembled weapon, gunner carries weapon)
 _MTRmount = "Tripod_Bag";																													// Mortar Assistant Gunner (note: Mortar is an assembled weapon, assistant carries bipod/tripd)
 
-_RAA = "Igla"; _RAAmag = "Iglac";																										// Rifleman AA (anti-air)
+_RAA = "Igla"; _RAAmag = "Igla";																										// Rifleman AA (anti-air)
 
 _SNrifle = "ACE_SVD_Bipod"; _SNriflemag = "10Rnd_762x54_SVD";																					// Sniper
 

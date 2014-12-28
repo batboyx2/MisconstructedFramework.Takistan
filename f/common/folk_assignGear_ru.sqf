@@ -83,7 +83,7 @@ _HAT = "MetisLauncher"; _HATmag1 = "ACE_AT13TB"; _HATmag2 = "ACE_AT13TB";							
 _MTR = "M252_US_Bag_EP1";																													// Mortar Gunner (note: Mortar is an assembled weapon, gunner carries weapon)
 _MTRmount = "Tripod_Bag";																													// Mortar Assistant Gunner (note: Mortar is an assembled weapon, assistant carries bipod/tripd)
 
-_RAA = "Igla"; _RAAmag = "Iglac";																										// Rifleman AA (anti-air)
+_RAA = "Igla"; _RAAmag = "Igla";																										// Rifleman AA (anti-air)
 
 _SNrifle = "ACE_SVD_Bipod"; _SNriflemag = "10Rnd_762x54_SVD";																					// Sniper
 
