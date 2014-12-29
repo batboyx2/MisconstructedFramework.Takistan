@@ -370,7 +370,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitUS_CO";
-					init="GrpUS_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Platoon Commander";
 				};
 				class Item1
@@ -385,7 +385,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_CO_M";
-					init="GrpUS_CO = group this; nul = [""m"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_CO = group this; nul = [""m"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Platoon Medic";
 				};
 				class Item2
@@ -400,7 +400,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitUS_CO_XO";
-					init="GrpUS_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Platoon XO";
 				};
 				class Item3
@@ -415,7 +415,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitUS_CO_1SGT";
-					init="GrpUS_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Platoon Sergeant";
 				};
 			};
@@ -478,7 +478,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_A1_FTL";
-					init="GrpUS_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Alpha 1 Fireteam Leader";
 				};
 				class Item1
@@ -493,7 +493,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_A1_AR";
-					init="GrpUS_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Alpha 1 Automatic Rifleman";
 				};
 				class Item2
@@ -507,7 +507,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A1_AAR";
-					init="GrpUS_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Alpha 1 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -521,7 +521,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A1_SR";
-					init="GrpUS_A1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_A1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Alpha 1 Senior Rifleman";
 				};
 				class Item4
@@ -535,7 +535,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A1_AT";
-					init="GrpUS_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Alpha 1 AT Rifleman";
 				};
 				class Item5
@@ -549,7 +549,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A1_GR";
-					init="GrpUS_A1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_A1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Alpha 1 Grenadier";
 				};
 			};
@@ -3509,7 +3509,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_A2_FTL";
-					init="GrpUS_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Alpha 2 Fireteam Leader";
 				};
 				class Item1
@@ -3524,7 +3524,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_A2_AR";
-					init="GrpUS_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Alpha 2 Automatic Rifleman";
 				};
 				class Item2
@@ -3538,7 +3538,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A2_AAR";
-					init="GrpUS_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Alpha 2 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -3552,7 +3552,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A2_AT";
-					init="GrpUS_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Alpha 2 AT Rifleman";
 				};
 				class Item4
@@ -3566,7 +3566,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A2_SR";
-					init="GrpUS_A2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_A2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Alpha 2 Senior Rifleman";
 				};
 				class Item5
@@ -3580,7 +3580,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_A2_GR";
-					init="GrpUS_A2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_A2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Alpha 2 Grenadier";
 				};
 			};
@@ -3643,7 +3643,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_B1_FTL";
-					init="GrpUS_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Bravo 1 Fireteam Leader";
 				};
 				class Item1
@@ -3658,7 +3658,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_B1_AR";
-					init="GrpUS_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Bravo 1 Automatic Rifleman";
 				};
 				class Item2
@@ -3672,7 +3672,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B1_AAR";
-					init="GrpUS_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Bravo 1 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -3686,7 +3686,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B1_AT";
-					init="GrpUS_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Bravo 1 AT Rifleman";
 				};
 				class Item4
@@ -3700,7 +3700,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B1_SR";
-					init="GrpUS_B1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_B1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Bravo 1 Senior Rifleman";
 				};
 				class Item5
@@ -3714,7 +3714,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B1_GR";
-					init="GrpUS_B1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_B1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Bravo 1 Grenadier";
 				};
 			};
@@ -3738,7 +3738,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_B2_FTL";
-					init="GrpUS_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Bravo 2 Fireteam Leader";
 				};
 				class Item1
@@ -3753,7 +3753,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_B2_AR";
-					init="GrpUS_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Bravo 2 Automatic Rifleman";
 				};
 				class Item2
@@ -3767,7 +3767,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B2_AAR";
-					init="GrpUS_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Bravo 2 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -3781,7 +3781,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B2_SR";
-					init="GrpUS_B2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_B2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Bravo 2 Senior Rifleman";
 				};
 				class Item4
@@ -3795,7 +3795,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B2_AT";
-					init="GrpUS_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Bravo 2 AT Rifleman";
 				};
 				class Item5
@@ -3809,7 +3809,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_B2_GR";
-					init="GrpUS_B2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_B2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Bravo 2 Grenadier";
 				};
 			};
@@ -3870,7 +3870,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_C1_FTL";
-					init="GrpUS_C1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_C1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Charlie 1 Fireteam Leader";
 				};
 				class Item1
@@ -3885,7 +3885,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_C1_AR";
-					init="GrpUS_C1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_C1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Charlie 1 Automatic Rifleman";
 				};
 				class Item2
@@ -3899,7 +3899,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C1_AAR";
-					init="GrpUS_C1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_C1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Charlie 1 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -3913,7 +3913,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C1_AT";
-					init="GrpUS_C1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_C1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Charlie 1 AT Rifleman";
 				};
 				class Item4
@@ -3927,7 +3927,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C1_SR";
-					init="GrpUS_C1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_C1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Charlie 1 Senior Rifleman";
 				};
 				class Item5
@@ -3941,7 +3941,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C1_GR";
-					init="GrpUS_C1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_C1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Charlie 1 Grenadier";
 				};
 			};
@@ -3965,7 +3965,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_C2_FTL";
-					init="GrpUS_C2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_C2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Charlie 2 Fireteam Leader";
 				};
 				class Item1
@@ -3980,7 +3980,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitUS_C2_AR";
-					init="GrpUS_C2 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_C2 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Charlie 2 Automatic Rifleman";
 				};
 				class Item2
@@ -3994,7 +3994,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C2_AAR";
-					init="GrpUS_C2 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpUS_C2 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="US Army Charlie 2 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -4008,7 +4008,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C2_SR";
-					init="GrpUS_C2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_C2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Charlie 2 Senior Rifleman";
 				};
 				class Item4
@@ -4022,7 +4022,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C2_AT";
-					init="GrpUS_C2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_C2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Charlie 2 AT Rifleman";
 				};
 				class Item5
@@ -4036,7 +4036,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitUS_C2_GR";
-					init="GrpUS_C2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpUS_C2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="US Army Charlie 2 Grenadier";
 				};
 			};
@@ -4825,7 +4825,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitBAF_CO";
-					init="GrpBAF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpBAF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="British Army Platoon Commander";
 				};
 				class Item1
@@ -4840,7 +4840,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitBAF_CO_M";
-					init="GrpBAF_CO = group this; nul = [""m"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpBAF_CO = group this; nul = [""m"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="British Army Platoon Medic";
 				};
 				class Item2
@@ -4855,7 +4855,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitBAF_CO_XO";
-					init="GrpBAF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Executive Officer";
 				};
 				class Item3
@@ -4870,7 +4870,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitBAF_CO_1SGT";
-					init="GrpBAF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Platoon Sergeant";
 				};
 			};
@@ -4933,7 +4933,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitBAF_A1_FTL";
-					init="GrpBAF_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpBAF_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="British Army Alpha 1 Fireteam Leader";
 				};
 				class Item1
@@ -4948,7 +4948,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitBAF_A1_AR";
-					init="GrpBAF_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpBAF_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="British Army Alpha 1 Automatic Rifleman";
 				};
 				class Item2
@@ -4962,7 +4962,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_AAR";
-					init="GrpBAF_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""BLUE"";  };";
+					init="GrpBAF_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""BLUE"";  };";
 					description="British Army Alpha 1 Assistant Automatic Rifleman";
 				};
 				class Item3
@@ -4976,7 +4976,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_SR";
-					init="GrpBAF_A1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_A1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Alpha 1 Senior Rifleman";
 				};
 				class Item4
@@ -4990,7 +4990,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_AT";
-					init="GrpBAF_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Alpha 1 AT Rifleman";
 				};
 				class Item5
@@ -5004,7 +5004,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A1_GR";
-					init="GrpBAF_A1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_A1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Alpha 1 Grenadier";
 				};
 			};
@@ -5068,7 +5068,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A2_SR";
-					init="GrpBAF_A2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_A2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Alpha 2 Senior Rifleman";
 				};
 				class Item4
@@ -5082,7 +5082,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A2_AT";
-					init="GrpBAF_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Alpha 2 AT Rifleman";
 				};
 				class Item5
@@ -5096,7 +5096,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_A2_GR";
-					init="GrpBAF_A2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_A2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Alpha 2 Grenadier";
 				};
 			};
@@ -5199,7 +5199,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B1_SR";
-					init="GrpBAF_B1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_B1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Bravo 1 Senior Rifleman";
 				};
 				class Item4
@@ -5213,7 +5213,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B1_AT";
-					init="GrpBAF_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Bravo 1 AT Rifleman";
 				};
 				class Item5
@@ -5227,7 +5227,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B1_GR";
-					init="GrpBAF_B1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_B1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Bravo 1 Grenadier";
 				};
 			};
@@ -5291,7 +5291,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B2_SR";
-					init="GrpBAF_B2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_B2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Bravo 2 Senior Rifleman";
 				};
 				class Item4
@@ -5305,7 +5305,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B2_AT";
-					init="GrpBAF_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Bravo 2 AT Rifleman";
 				};
 				class Item5
@@ -5319,7 +5319,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_B2_GR";
-					init="GrpBAF_B2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_B2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Bravo 2 Grenadier";
 				};
 			};
@@ -5422,7 +5422,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C1_SR";
-					init="GrpBAF_C1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_C1 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Charlie 1 Senior Rifleman";
 				};
 				class Item4
@@ -5436,7 +5436,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C1_AT";
-					init="GrpBAF_C1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_C1 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Charlie 1 AT Rifleman";
 				};
 				class Item5
@@ -5450,7 +5450,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C1_GR";
-					init="GrpBAF_C1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_C1 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Charlie 1 Grenadier";
 				};
 			};
@@ -5514,7 +5514,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C2_SR";
-					init="GrpBAF_C2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_C2 = group this; nul = [""r"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Charlie 2 Senior Rifleman";
 				};
 				class Item4
@@ -5528,7 +5528,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C2_AT";
-					init="GrpBAF_C2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_C2 = group this; nul = [""rat"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Charlie 2 AT Rifleman";
 				};
 				class Item5
@@ -5542,7 +5542,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitBAF_C2_GR";
-					init="GrpBAF_C2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 6;   (_this select 0) assignTeam ""RED"";  };";
+					init="GrpBAF_C2 = group this; nul = [""gren"",this] call f_fnc_assignGear; 0 = [this] spawn {   sleep 12;   (_this select 0) assignTeam ""RED"";  };";
 					description="British Army Charlie 2 Grenadier";
 				};
 			};
