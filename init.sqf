@@ -3,6 +3,13 @@
 //["162.248.88.211", "9987", "", "ACRE_CHANNEL", "123"] call acre_api_fnc_joinServer;
 
 // ====================================================================================
+// Run the cold start scripts
+
+if (!isDedicated && hasInterface) then { //check to make sure it's not HC or the server
+	[]execVM "tmh\coldStart.sqf";
+};
+
+// ====================================================================================
 // Run the custom ACE Configurator
 
 if !(isDedicated) then {
