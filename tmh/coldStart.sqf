@@ -12,7 +12,7 @@ tmh_var_cold = true;
 //
 // =========================================================================================
 // Add the fleximenu option for administrative functions to the current administrator
-if (serverCommandAvailable "#missions") then {
+if ((serverCommandAvailable "#missions") || (isServer)) then {
 	[
 		"player",
 		[ace_sys_interaction_key_self],
