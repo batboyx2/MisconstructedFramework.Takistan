@@ -46,11 +46,11 @@
 
 _rifle = "M16A2"; _riflemag = "30Rnd_556x45_Stanag";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
 
-_carbine = "M4A1"; _carbinemag = "30Rnd_556x45_Stanag";  																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
+_carbine = "AKS_74_U"; _carbinemag = "30Rnd_545x39_AK";  																					// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
-_smg = "bizon"; _smgmag = "64Rnd_9x19_Bizon";																								// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
+_smg = "ACE_MP5A4"; _smgmag = "30Rnd_9x19_MP5";																								// Standard Submachine Gun/Personal Defence Weapon (Vehicle Crew, Aircraft Pilot, Submachinegunner)
 
-_glrifle = "M16A4_GL"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rnd_HE_M203";															// Rifle with GL and HE grenades (CO, DC, FTLs)
+_glrifle = "M16A2GL"; _glriflemag = "30Rnd_556x45_Stanag"; _glmag = "1Rnd_HE_M203";															// Rifle with GL and HE grenades (CO, DC, FTLs)
 _glsmokewhite = "1Rnd_Smoke_M203"; _glsmokegreen = "1Rnd_SmokeGreen_M203"; _glsmokered = "1Rnd_SmokeRed_M203";    							// Smoke for FTLs, Squad Leaders, etc 
 _glflarewhite = "FlareWhite_M203"; _glflarered = "FlareRed_M203"; _glflareyellow = "FlareYellow_M203"; _glflaregreen = "FlareGreen_M203";	// Flares for FTLs, Squad Leaders, etc
 
@@ -70,14 +70,14 @@ _baglarge =  "CZ_Backpack_EP1"; 		// 12+ slots
 
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
-_AR = "M249_EP1"; _ARmag = "100Rnd_556x45_M249";																							// Automatic Rifleman
+_AR = "RPK_74"; _ARmag = "ACE_75Rnd_545x39_S_RPK";																							// Automatic Rifleman
 
-_MMG = "M60A4_EP1"; _MMGmag = "100Rnd_762x51_M240";																							// Medium MG
+_MMG = "PK"; _MMGmag = "100Rnd_762x54_PK";																							// Medium MG
 
 _HMG = "M2HD_mini_TriPod_US_Bag_EP1";																										// Heavy MG (note: HMG is an assembled weapon, gunner carries weapon)
 _HMGmount = "Tripod_Bag";																													// Assistant Heavy MG (note: HMG is an assembled weapon, assistant carries bipod/tripd)
 
-_RAT = "RPG7V"; _RATmag = "PG7V";																											// Rifleman AT
+_RAT = "ACE_M72"; _RATmag = "ACE_M72";																											// Rifleman AT
 
 _MAT = "RPG7V"; _MATmag1 = "PG7V"; _MATmag2 = "PG7VR";																						// Medium AT
 
