@@ -29,7 +29,7 @@ _alive = {alive _x} count (units _grp);
 if (_alive == 0) exitWith {nul = [player] execVM "f\common\f_JIP_addReinforcementOptionsAction.sqf";};
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\common\f_JIP_nearTargetGroupCheck.sqf): _alive = %1",_alive];
 };

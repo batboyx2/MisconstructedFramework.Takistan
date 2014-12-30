@@ -17,11 +17,10 @@ private ["_unt","_mkrType","_mkrText","_mkrColor","_mkrName","_mkr","_untName"];
 
 // SET KEY VARIABLES
 // Using variables passed to the script instance, we will create some local variables:
-
+if (isNil (_this select 0)) exitWith {};
 call compile format ["
 	_unt = %1;
 ",_this select 0];
-
 _untName = _this select 0;
 _mkrType = _this select 1;
 _mkrText = _this select 2;

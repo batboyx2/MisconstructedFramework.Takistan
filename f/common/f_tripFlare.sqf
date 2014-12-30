@@ -32,7 +32,7 @@ _trg0_units = [];
 {if ((side _x) == (side (_units select 0))) then {_trg0_units = _trg0_units - [_x]}} forEach _trg0_units;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_str_trg0_units = str _trg0_units;
 	player sideChat format ["DEBUG (f\common\f_tripFlare.sqf): _trg0_units = %1",_str_trg0_units];
@@ -53,7 +53,7 @@ _trg1_units = [];
 {if (_x isKindOf "CAManBase" || _x isKindOf "LandVehicle" || _x isKindOf "Air" || _x isKindOf "Ship") then {_trg1_units = _trg1_units + [_x]}} forEach list _trg1;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_str_trg1_units = str _trg1_units;
 	player sideChat format ["DEBUG (f\common\f_tripFlare.sqf): _trg1_units = %1",_str_trg1_units];
@@ -75,7 +75,7 @@ if (f_var_debugMode == 1) then
 		};
 		
 		// DEBUG
-		if (f_var_debugMode == 1) then
+		if (0 == 1) then
 		{
 			_knowledge = (_seer knowsAbout _x);
 			_str_seer = str _seer;

@@ -39,7 +39,7 @@ _alive = {alive _x} count (units _grp);
 if (_alive == 0) exitWith {};
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_groupEandECheck.sqf): _alive = %1",_alive];
 };
@@ -53,7 +53,7 @@ if (f_var_debugMode == 1) then
 {if ((_x distance _obj) < _safeDistance) then {_safe = (_safe + 1)};} forEach units _grp;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_groupEandECheck.sqf): _safe = %1",_safe];
 };

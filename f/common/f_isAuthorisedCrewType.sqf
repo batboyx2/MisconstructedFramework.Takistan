@@ -26,7 +26,7 @@ _restrictedCrewTypes = _this select 1;
 _warningMsg = localize "STR_f_UnauthorisedCrew_Warning";
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\common\f_isAuthorisedCrewType.sqf): _fromEH = %1",_fromEH];
 	player sideChat format ["DEBUG (f\common\f_isAuthorisedCrewType.sqf): _vehicle = %1",_vehicle];

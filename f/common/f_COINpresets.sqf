@@ -24,7 +24,7 @@ _coinOP = call compile format ["%1",  _coinOP];
 if (player != _coinOp) exitWith {};
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\common\f_COINpresets.sqf): COIN Name: %1 | Operator: %2 | Type: %3 | Funds: %4",_str_coin,_str_coinOp,_coinType,_coinFunds];
 };

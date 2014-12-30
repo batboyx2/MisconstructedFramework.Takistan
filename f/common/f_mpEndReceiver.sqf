@@ -22,14 +22,14 @@ if (isServer) then
 {
 	sleep 3;
 // DEBUG
-	if (f_var_debugMode == 1) then
+	if (0 == 1) then
 	{
 		player sideChat "DEBUG (f\server\f_mpEndBroadcast.sqf): This is the server.";
 	};
 };
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_mpEndBroadcast.sqf): f_endSelected = %1",f_endSelected];
 };

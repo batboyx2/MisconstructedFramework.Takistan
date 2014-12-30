@@ -23,7 +23,7 @@ if(f_var_acre > 0) then {
 VM_scriptName="specta";
 
 _debugPlayer=objNull;
-if ( f_var_debugMode == 1 ) then {
+if ( 0 == 1 ) then {
 	_debugPlayer=player;
 };
 
@@ -443,7 +443,7 @@ MovementCameraLoop = {
 		// END OF NIGHT VISION HANDLING
 		
 
-		if ( f_var_debugMode == 1 ) then {
+		if ( 0 == 1 ) then {
 			// vm_MovementCameraLoop_count = vm_MovementCameraLoop_count + 1;
 			// _debugPlayer groupchat format ["MovementCameraLoop %1, Loop# %2", VM_SpectatorCamerasEnabled, vm_MovementCameraLoop_count];
 		};
@@ -801,7 +801,7 @@ waitUntil{(_bird modelToWorld [0,0,0]) select 2 < 0.05 and speed _bird < 1};
 onMapSingleClick "";
 
 sleep(0.5);
-if !( f_var_debugMode == 1 ) then {
+if !( 0 == 1 ) then {
 	titleText["","BLACK OUT", 0.5];
 	sleep(1);
 };
@@ -810,6 +810,6 @@ if !( f_var_debugMode == 1 ) then {
 _player switchCamera "INTERNAL";
 _player cameraEffect["terminate","FRONT"];
 deletevehicle _bird;
-if !( f_var_debugMode == 1 ) then {
+if !( 0 == 1 ) then {
 	[_player, _killer, "noWait"] execVM ("f\common\f_spect\specta.sqf");
 };

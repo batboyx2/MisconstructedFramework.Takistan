@@ -53,7 +53,7 @@ case "civ_ru":{_faction="bis_tk_civ";_useBackpacks=0;};		// CIV_RU as TK_CIV (no
 };
 
 // DEBUG
-	if (f_var_debugMode == 1) then
+	if (0 == 1) then
 	{
 	player sideChat format ["DEBUG (assignGear.sqf): Player faction: %1",_faction];
 	};
@@ -220,7 +220,7 @@ if (_faction == "bis_civ_special") then {
 if (isNil "_carbine") then { //_carbine should exist unless no faction has been called
 	player globalchat format ["DEBUG (assignGear.sqf): Faction %1 is not defined.",_faction];
 } else {
- 	if (f_var_debugMode == 1) then	{
+ 	if (0 == 1) then	{
 		player sideChat format ["DEBUG (assignGear.sqf): Gear for %1: %1 slot selected.",_unit,_faction,_typeofUnit];
 	};
 };

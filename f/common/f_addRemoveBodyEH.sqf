@@ -30,7 +30,7 @@ waitUntil {scriptDone f_script_setLocalVars};
 _men = f_var_men;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_str_men = str _men;
 	player sideChat format ["DEBUG (f\common\f_addRemoveBodyEH.sqf): _men = %1",_str_men];
@@ -45,7 +45,7 @@ if (f_var_debugMode == 1) then
 {if ((group _x) in f_doNotRemoveBodies) then {_men = _men - [_x]}} forEach _men;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_str_menLessExempt = str _men;
 	player sideChat format ["DEBUG (f\common\f_addRemoveBodyEH.sqf): _menLessExempt = %1",_str_menLessExempt];
@@ -76,7 +76,7 @@ if (count _this == 0) then
 		}]
 	} forEach _men;
 	// DEBUG
-	if (f_var_debugMode == 1) then
+	if (0 == 1) then
 	{
 	player sideChat "DEBUG (f\common\f_addRemoveBodyEH.sqf): FIFO EHs added";
 	};

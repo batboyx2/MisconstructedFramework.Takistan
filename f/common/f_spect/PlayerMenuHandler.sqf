@@ -1,7 +1,7 @@
 private ["_Source", "_debugPlayer", "_cName", "_cCamera", "_idx", "_found", "_role", "_name", "_ccName", "_disp"];
 _Source = _this select 0;
 _debugPlayer=objNull;
-if ( f_var_debugMode == 1 ) then {
+if ( 0 == 1 ) then {
 	_debugPlayer=player;
 };
 _debugPlayer groupchat format ["PlayerMenuHandler Source: %1", _Source];

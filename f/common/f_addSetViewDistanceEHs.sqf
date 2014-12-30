@@ -28,7 +28,7 @@ waitUntil {scriptDone f_script_setLocalVars};
 _vehicles = f_var_vehicles;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_str_vehicles = str _vehicles;
 	player sideChat format ["DEBUG (f\common\f_addSetViewDistanceEHs.sqf): _vehicles = %1",_str_vehicles];
@@ -72,7 +72,7 @@ if ((_vehicle isKindOf "Tank") && ((commander _vehicle == player) || (driver _ve
 };
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\common\f_addSetViewDistanceEHs.sqf): _str_yourViewDistance = %1",_str_yourViewDistance];
 };

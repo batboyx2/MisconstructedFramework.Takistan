@@ -1,7 +1,7 @@
 FreeLookMovementHandler = {
 
 	_debugPlayer=objNull;
-	if ( f_var_debugMode == 1 ) then {
+	if ( 0 == 1 ) then {
 		_debugPlayer=player;
 	};
 	// _debugplayer sidechat "Classic FreeLookMovementHandler spawn activated";		

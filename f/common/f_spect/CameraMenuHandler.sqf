@@ -1,12 +1,12 @@
 private ["_Source", "_debugPlayer", "_cName", "_cCamera"];
 _Source = _this select 0;
 _debugPlayer=objNull;
-if ( f_var_debugMode == 1 ) then {
+if ( 0 == 1 ) then {
 	_debugPlayer=player;
 };
 _debugPlayer groupchat format ["CameraMenuHandler Source: %1", _Source]; 
 _msg = format["CameraMenuHandler Source: %1", _Source];
-if ( f_var_debugMode == 1 ) then { diag_log  _msg; };
+if ( 0 == 1 ) then { diag_log  _msg; };
 
 
 _cName = 55004;
@@ -66,7 +66,7 @@ _cCamera = 55002;
 			
 	_debugPlayer globalchat Format["KEGs_cLBCameras %1 <==> KEGs_cameraIdx %2 (KEGs_camSelLast %3)",KEGs_cLBCameras, KEGs_cameraIdx,KEGs_camSelLast];
 	_msg = Format["KEGs_cLBCameras %1 <==> KEGs_cameraIdx %2 (KEGs_camSelLast %3)",KEGs_cLBCameras, KEGs_cameraIdx,KEGs_camSelLast];
-	if ( f_var_debugMode == 1 ) then { diag_log  _msg; };
+	if ( 0 == 1 ) then { diag_log  _msg; };
 	
 	lbSetCurSel[KEGs_cLBCameras, KEGs_cameraIdx];	// reset camera mode selection in the listbox to the new or current camera mode
 	

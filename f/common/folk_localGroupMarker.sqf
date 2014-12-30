@@ -17,7 +17,7 @@ private ["_grp","_mkrType","_mkrText","_mkrColor","_mkrName","_mkr","_grpName"];
 
 // SET KEY VARIABLES
 // Using variables passed to the script instance, we will create some local variables:
-
+if (isNil (_this select 0)) exitWith {};
 call compile format ["
 	_grp = %1;
 ",_this select 0];

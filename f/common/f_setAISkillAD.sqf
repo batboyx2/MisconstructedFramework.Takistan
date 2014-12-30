@@ -57,7 +57,7 @@ _localCIVUnits = [];
 {if ((side _x) == civilian) then {_localCIVUnits = _localCIVUnits + [_x]}} forEach _localUnits;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_strUnits = str _units;
 	_strLocalUnits = str _localUnits;
@@ -154,7 +154,7 @@ f_skillOPF = _skillSideOPFOR;
 if (f_isFriendlyToBLU_CIV == 1) then {f_skillCIV = _skillSideBLUFOR} else {f_skillCIV = _skillSideOPFOR};
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	_strSkillSideBLUFOR = str _skillSideBLUFOR;
 	_strSkillSideOPFOR = str _skillSideOPFOR;
@@ -177,7 +177,7 @@ if (f_var_debugMode == 1) then
 {_x setSkill f_skillCIV} forEach _localCIVUnits;
 
 // DEBUG (SPECIAL)
-// if (f_var_debugMode == 1) then
+// if (0 == 1) then
 // {
 // 	{_x addEventHandler ["hit", {_v=_this select 0; _skillV = skill _v; player sideChat format ["DEBUG (f\common\f_setAISkillAD.sqf): Skill %1 = %2",_v,_skillV]}];} forEach _localUnits;
 // };

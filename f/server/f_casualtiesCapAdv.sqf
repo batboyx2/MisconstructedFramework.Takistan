@@ -23,7 +23,7 @@ _pc = _this select 1;
 _started = 0;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_casualtiesCapAdv.sqf): _grpstemp = %1",_grpstemp];
 };
@@ -52,7 +52,7 @@ while {_counter < _grpsno} do
 };
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_casualtiesCapAdv.sqf): _grps = %1",_grps];
 };
@@ -65,7 +65,7 @@ if (f_var_debugMode == 1) then
 {_started = _started + (count (units _x))} forEach _grps;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_casualtiesCapAdv.sqf): _started = %1",_started];
 };
@@ -92,7 +92,7 @@ for [{_i=0}, {_i<=10000}, {_i=_i+1}] do
 	};
 	
 // DEBUG
-	if (f_var_debugMode == 1) then
+	if (0 == 1) then
 	{
 		player sideChat format ["DEBUG (f\server\f_casualtiesCapAdv.sqf): _remaining = %1",_remaining];
 	};
@@ -111,7 +111,7 @@ for [{_i=0}, {_i<=10000}, {_i=_i+1}] do
 // ====================================================================================
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat "DEBUG (f\server\f_casualtiesCapAdv.sqf): Custom commands activated.";
 };

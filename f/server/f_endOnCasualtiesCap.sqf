@@ -55,7 +55,7 @@ if(_type == "SIDE") then // if the variable is any of the side variables use it 
 
 // ====================================================================================
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_endOnCasualtiesCap.sqf): _grpstemp = %1",_grpstemp];
 };
@@ -84,7 +84,7 @@ while {_counter < _grpsno} do
 };
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_endOnCasualtiesCap.sqf): _grps = %1",_grps];
 };
@@ -97,7 +97,7 @@ if (f_var_debugMode == 1) then
 {_started = _started + (count (units _x))} forEach _grps;
 
 // DEBUG
-if (f_var_debugMode == 1) then
+if (0 == 1) then
 {
 	player sideChat format ["DEBUG (f\server\f_endOnCasualtiesCap.sqf): _started = %1",_started];
 };
@@ -124,7 +124,7 @@ for [{_i=0}, {_i<=10000}, {_i=_i+1}] do
 	};
 	
 // DEBUG
-	if (f_var_debugMode == 1) then
+	if (0 == 1) then
 	{
 		player sideChat format ["DEBUG (f\server\f_endOnCasualtiesCap.sqf): _remaining = %1",_remaining];
 	};
