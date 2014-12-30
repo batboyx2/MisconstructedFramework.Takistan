@@ -55,13 +55,6 @@ f_respawnINIT = player addEventHandler ["killed", {_this execVM "init_onPlayerRe
 
 // ====================================================================================
 
-// F2 - Mission Conditions Selector
-// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
-
-[] execVM "f\common\f_setMissionConditions.sqf";
-
-// ====================================================================================
-
 // F2 - OA Folk Group IDs
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
