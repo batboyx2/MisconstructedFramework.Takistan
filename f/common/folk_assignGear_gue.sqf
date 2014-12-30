@@ -145,7 +145,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _glsmokewhite, 5] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC117";
+		_unit addWeapon "ACRE_PRC117F";
 	};
   
 // LOADOUT: DEPUTY COMMANDER AND SQUAD LEADER
@@ -169,7 +169,7 @@ switch (_typeofUnit) do
 		_bool = [_unit, _glsmokewhite, 5] call ACE_fnc_PackMagazine;
 		[_unit, _bagMedium] call ACE_fnc_PutWeaponOnBack;
 		
-		_unit addWeapon "ACRE_PRC117";
+		_unit addWeapon "ACRE_PRC117F";
 		_unit addWeapon "ACRE_PRC148";
 	};  
 
