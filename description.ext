@@ -15,8 +15,9 @@ class Header
 // F2 - Respawn Settings
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
-respawn = 1;
+respawn = 4;
 respawndelay = 3;
+disabledAI = 1;
 
 // ============================================================================================
 
