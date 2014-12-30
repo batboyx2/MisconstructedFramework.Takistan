@@ -1,10 +1,22 @@
-private ["_target","_params","_menuName","_menuRsc","_menuDef","_menus"];
+private ["_target","_params","_menuName","_menuRsc","_menuDef","_menus","_objects"];
 
 _target = _this select 0;
 _params = _this select 1;
 
 _menuName = "main";
 _menuRsc = "popup";
+
+tmh_fnc_spawnUtilityCrate = {
+	_crateClass = (_this select 0);
+	//hint _crateClass;
+	createVehicle [_crateClass, getPos player,[],0,"NONE"];
+};
+
+tmh_fnc_deleteUtilityCrate = {
+	_objects = nearestObjects [getPos player,["ACE_ItemsBox","ACE_RopeBox","ACE_RuckBox","ACRE_RadioBox","ACE_BandageBoxWest"],100];
+	hint str _objects;
+	deleteVehicle (_objects select 0);
+};
 
 _menus = [
   [
@@ -13,7 +25,7 @@ _menus = [
       ["<t color='#ffc600'>Administrator Actions ></t>",
         {}, // code to run
         "", "", // ?? and ??
-		["tmh\adminFunctions_coldStart.sqf","tmh_self_1",1], //submenu
+		["tmh\adminFunctions_mainMenu.sqf","tmh_mainMenu",1], //submenu
 		-1, // key
         (true)] //conditions
     ]

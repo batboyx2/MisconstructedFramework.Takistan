@@ -17,19 +17,25 @@ if (typeName _params == typeName []) then {
 
 _menus = [];
 
-if (_menuName == "tmh_coldStart") then {
+if (_menuName == "tmh_mainMenu") then {
 	_menus set [count _menus,
 		[
-			["tmh_coldStart","Self Options", _menuRsc],
+			["tmh_mainMenu","Self Options", _menuRsc],
 			[
-				["<t color='#b54438'>Weapons Cold ></t>",
-					{tmh_var_cold = true; publicVariable "tmh_var_cold";},
-					"", "", "", -1,
-					true],
-				["<t color='#b54438'>Weapons Hot ></t>",
-					{tmh_var_cold = false; publicVariable "tmh_var_cold";},
-					"", "", "", -1,
-					true]
+				["<t color='#bf6625'>Cold Starter ></t>", //cold start submenu
+					{}, //code to run
+					"", "", // ?? and ??
+					["tmh\adminFunctions_coldStart.sqf","tmh_coldStart",1],
+					-1, //key
+					true //conditions
+				], 
+				["<t color='#bf6625'>Utility Crate Spawner ></t>", //UCS submenu
+					{}, //code to run
+					"", "", // ?? and ??
+					["tmh\adminFunctions_utilityCrateMenu.sqf","tmh_utilityCrateMenu",1],
+					-1, //key
+					true //conditions
+				]
 			]
 		]
 	];

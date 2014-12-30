@@ -1,4 +1,5 @@
 private ["_count", "_EHindex"];
+if (time < 10) then {
 tmh_var_cold = true;
 //
 // =========================================================================================
@@ -8,7 +9,7 @@ tmh_var_cold = true;
 	player allowDamage false;
 	{_x allowDamage false;} forEach playableUnits;
 };
-
+};
 //
 // =========================================================================================
 // Add the fleximenu option for administrative functions to the current administrator
@@ -51,6 +52,8 @@ tmh_fnc_weaponsLive = {
 
 _count = 0;
 while {true} do {
+	waitUntil {!isNil "tmh_var_cold"}; //JIP precautions
+	waitUntil {tmh_var_cold}; //JIP precautions
 	hint "All weapons are cold.";
 	[] call tmh_fnc_weaponsCold;
 	_count = 0;

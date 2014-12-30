@@ -17,17 +17,33 @@ if (typeName _params == typeName []) then {
 
 _menus = [];
 
-if (_menuName == "tmh_coldStart") then {
+if (_menuName == "tmh_utilityCrateMenu") then {
 	_menus set [count _menus,
 		[
-			["tmh_coldStart","Self Options", _menuRsc],
+			["tmh_utilityCrateMenu","Self Options", _menuRsc],
 			[
-				["<t color='#b54438'>Weapons Cold ></t>",
-					{tmh_var_cold = true; publicVariable "tmh_var_cold";},
+				["<t color='#b54438'>ACE Medical Box ></t>",
+					{["ACE_BandageBoxWest"] call tmh_fnc_spawnUtilityCrate},
 					"", "", "", -1,
 					true],
-				["<t color='#b54438'>Weapons Hot ></t>",
-					{tmh_var_cold = false; publicVariable "tmh_var_cold";},
+				["<t color='#b54438'>ACRE Radio Box ></t>",
+					{["ACRE_RadioBox"] call tmh_fnc_spawnUtilityCrate},
+					"", "", "", -1,
+					true],
+				["<t color='#b54438'>ACE Ruck Box ></t>",
+					{["ACE_RuckBox"] call tmh_fnc_spawnUtilityCrate},
+					"", "", "", -1,
+					true],
+				["<t color='#b54438'>ACE Rope Box ></t>",
+					{["ACE_RopeBox"] call tmh_fnc_spawnUtilityCrate},
+					"", "", "", -1,
+					true],
+				["<t color='#b54438'>ACE Item Box ></t>",
+					{["ACE_ItemsBox"] call tmh_fnc_spawnUtilityCrate},
+					"", "", "", -1,
+					true],
+				["<t color='#b54438'>Delete Nearest Crate ></t>",
+					{[] call tmh_fnc_deleteUtilityCrate},
 					"", "", "", -1,
 					true]
 			]
