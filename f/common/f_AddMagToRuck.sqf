@@ -32,7 +32,7 @@ _count = _this select 2;
 			_success = [_unit, _magazine, _count] call ACE_fnc_PackMagazine;
 			
 			// DEBUG
-			if (f_var_debugMode == 1) then
+			if (0 == 1) then
 			{
 				_ErrorReport = Format ["F2 Debug - unit: %1 Count: %2 Magazine: %3 CanFit: %4", _unit, _count,_magazine, _success];
 				diag_log _ErrorReport;
